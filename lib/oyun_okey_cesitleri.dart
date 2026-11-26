@@ -121,6 +121,7 @@ final okeyEsliConfig = GameConfig(
     ],
   seedColor: const Color(0xFF2E7D6B),
   icon: Icons.handshake,
+  extraModes: [lessonMode(LessonCourse.okey)],
   rules: okeyEsliRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
@@ -240,6 +241,7 @@ final okeyKatlamaliConfig = GameConfig(
     ],
   seedColor: const Color(0xFF8C5A2B),
   icon: Icons.trending_up,
+  extraModes: [lessonMode(LessonCourse.okey)],
   rules: okeyKatlamaliRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
@@ -359,6 +361,7 @@ final okeyIkiConfig = GameConfig(
     ],
   seedColor: const Color(0xFF2C5D8F),
   icon: Icons.people,
+  extraModes: [lessonMode(LessonCourse.okey)],
   rules: okeyIkiRules,
   buildPlay: (ctx) => TableView(ctx: ctx),
   tutorial: const [
